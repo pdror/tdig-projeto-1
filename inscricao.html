@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Inscricao | TEA TECH</title>
+	<link href="./src/styles/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" defer></script>
+	<script type="text/javascript" src="./src/scripts/inscricao.js" defer>
+
+	</script>
+</head>
+
+<body onload="getInstituicoes()">
+
+	<div id="bordas">
+	</div>
+
+
+	<br>
+  
+ <div id="area-logo">
+ <div class="fade">
+      <img  src="./src/images/image1.png" style="float:left">
+ </div>
+  
+ </div>
+
+<nav id="area-cabecalho">
+ <h1>Inscrição</h1>
+
+      <a href="index.html"><big>Sobre</big></a>
+      <a href="inscricao.html"><big>Inscreva-se</big></a>
+      <a href="inscricoes.html"><big>Inscrições</big></a>
+		  <a href="duvidas.html"><big>Dúvidas</big></a>
+
+</nav>
+
+<br><br>
+
+
+<div id="area-info">
+  <p>Inscrição feita com sucesso!</p>
+  <br>
+  <table id="dados-aluno">
+    <tr>
+      <th>Nome:</th>
+      <td id="fnome-table"></td>
+    </tr>
+    <tr>
+      <th>Sobrenome:</th>
+      <td id="lnome-table"></td>
+    </tr>
+    <tr>
+      <th>Instituição:</th>
+      <td id="instituicao-table"></td>
+    </tr>
+    <tr>
+      <th>Período:</th>
+      <td id="periodo-table"></td>
+    </tr>
+    <tr>
+      <th>Matrícula:</th>
+      <td id="matricula-table"></td>
+    </tr>
+    <tr>
+      <th>E-mail:</th>
+      <td id="email-table"></td>
+    </tr>
+    <tr>
+      <th>Telefone:</th>
+      <td id="telefone-table"></td>
+    </tr>
+  </table>
+</div>
+
+ <div id="area-formulario">
+<form id="formulario" method="POST">
+<br>
+
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" required><br><br>
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" required><br><br>
+
+ <label for="instituicao">Instituição de Ensino:</label><br>
+
+    <select id="instituicao" name="instituicao">
+  
+    </select>
+ <br><br>
+
+  <label for="periodo">Periodo:</label><br>
+
+ <select id="periodo" name="periodo">
+    <option value="primeiro">1º</option>
+    <option value="segundo">2º</option>
+    <option value="terceiro">3º</option>
+    <option value="quarto">4º</option>
+    <option value="quinto">5º</option>
+    <option value="sexto">6º</option>
+    <option value="setimo">7º</option>
+    <option value="oitavo">8º</option>
+    <option value="nono">9º</option>
+    </select>
+ <br><br>
+  
+
+  <label for="matricula">Matricula:</label><br>
+  <input type="text" id="matricula" name="matricula" required><br><br>
+
+  <label for="email">E-mail :</label><br>
+  <input type="email" id="email" name="mail" placeholder="example@example.com" required><br><br>
+   
+
+  <label for="fone">Telefone :</label><br>
+  <input type="tel" id="fone" name="fone" placeholder="(DDD)9XXXX-XXXX" required><br><br>
+   
+
+ <button type="submit" class="enviar">Enviar</button>
+ 
+</form>
+
+<p id="demo"></p>
+  </div>
+<br><br>
+
+
+
+  <div id="bordas">
+
+    
+  </div>
+
+
+
+
+  </body>
+
+
+</html>

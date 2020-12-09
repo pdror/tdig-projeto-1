@@ -1,0 +1,189 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-size: 22px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-image: url("/imagens/image2.jpg");
+  background-color: #FFF;
+}
+
+#area-cabecalho
+{
+  background-color: #FFD700;
+  padding: 15px;
+  margin: 10px 50px 10px 50px;/*
+  text-align: center;*/
+  border-radius: 28px;
+ 
+}
+
+#area-logo, #area-menu
+{
+	padding: 10px;
+}
+
+#area-principal
+{
+	width: 920px; 
+	margin: 0 auto;
+	padding: 15px;
+  background-color: #1a56c5e5;
+  border-radius: 18px;
+}
+#area-formulario
+{
+	width: 920px; 
+	margin: 0 auto;
+	padding: 15px;
+  background-color: #1a56c5e5;
+  border-radius: 18px;
+}
+
+#area-info {
+  display: none;
+  margin: 15px auto;
+  width: 920px;
+	padding: 15px;
+  background-color: #1a56c5e5;
+  border-radius: 18px;
+}
+
+#area-contato
+{
+	width: 920px; 
+	margin: 0 auto;
+	padding: 15px;
+  background-color: #1a56c5e5;
+  border-radius: 18px;
+}
+
+
+#bordas
+{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #1a56c5	;
+ 
+
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link, a:visited
+{
+	color: #1a56c5;
+
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited
+{
+	color: #1a56c5;
+	padding: 8px 12px;
+
+}
+#area-cabecalho a:hover
+{
+	color: #FFF;
+	background: #1a56c5;
+	text-decoration: none;
+  border-radius: 18px;
+}
+
+h1
+{
+	color:#1a56c5;
+	font-size: 2.5em;
+  margin: 40px;
+ 
+}
+
+
+h2
+{
+	color: #1a56c5;
+ 
+}
+
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+
+
+input {
+  padding: 5px;
+  border-radius: 8px;
+  width: 600px ; 
+}
+
+.textarea {
+  height : 100px ; 
+}
+
+.enviar {
+    background-color: #1a56c5;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+  
+}
+
+.enviar:hover
+{
+	text-decoration: underline;
+}
+
+img{
+  width : 100px;
+} 
+
+p{
+
+		color: #FFF;
+
+	}
+
+#dados-aluno {
+  color: #FFF;
+  margin: 10px 50px 10px 50px;
+}
+
+thead {
+  color: yellow;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+form{
+
+		color: #FFF;
+   margin: 10px 50px 10px 50px;
+  }
+
